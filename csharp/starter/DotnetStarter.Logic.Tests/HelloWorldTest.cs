@@ -8,9 +8,12 @@ namespace DotnetStarter.Logic.Tests
     {
         [Fact]
         public void It_Should_Run() => Assert.Equal(1, 1);
-        
+
         [Fact]
-        public void Hello_ReturnsWorld() => Assert.Equal("Drink", "Drink");
+        public void Hello_ReturnsWorld()
+        {
+            Assert.Equal("Drink", "Drink");
+        }
 
         private string GetDebuggerDisplay()
         {
